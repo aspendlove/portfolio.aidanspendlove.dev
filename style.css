@@ -96,7 +96,6 @@ svg {
     height: 100vh;
     object-fit: cover;
     z-index: -1;
-    content: url("/assets/images/background.png")
 }
 
 .navbar-custom {
