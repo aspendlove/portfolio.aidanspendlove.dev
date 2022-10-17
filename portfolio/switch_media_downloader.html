@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <title>Aidan Spendlove</title>
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-terminal-2' width='44' height='44' viewBox='0 0 24 24' stroke-width='1.5' stroke='%237765E3' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none' /%3E%3Cpath d='M8 9l3 3l-3 3' /%3E%3Cline x1='13' y1='15' x2='16' y2='15' /%3E%3Crect x='3' y='4' width='18' height='16' rx='2' /%3E%3C/svg%3E"
+        type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+</header>
+
+<body>
+    <div class="navbar-custom">
+        <svg class="navbar-icon-custom" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="#f0f8ff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M8 9l3 3l-3 3" />
+            <line x1="13" y1="15" x2="16" y2="15" />
+            <rect x="3" y="4" width="18" height="16" rx="2" />
+        </svg>
+        <a href="/index.html" class="navbar-link-custom undecorated-link">Home</a>
+        <a href="/portfolio.html" class="navbar-link-custom undecorated-link">Portfolio</a>
+        <a href="https://nextcloud.aidanspendlove.dev:610/index.php/apps/forms/ZJPNrGJaAN2HLCw5"
+            class="navbar-link-custom undecorated-link" target="_blank">Contact</a>
+        <a href="https://github.com/aspendlove/" class="navbar-link-custom undecorated-link" target="_blank">Github</a>
+        <a href="https://blog.aidanspendlove.dev" class="navbar-link-custom undecorated-link" target="_blank">Blog</a>
+    </div>
+    <img class="background-hero">
+    <div class="toplevel-centered">
+        <h1 class="title-custom" style="margin-top:2em;">Switch Media Downloader</h1>
+        <div class="text-box">
+            <h3>About this piece</h3>
+            <p>
+                Switch Media Downloader is a tool that I have only recently created. It came to be when
+                I found it difficult to share videos from my Nintendo Switch to my friend through messaging
+                apps on my phone. I leveraged the fact that I have my own custom server to make a creative solution.
+                <br>
+                <br>
+                Nintendo Switches have a couple ways of getting screenshots and videos off of the console: posting to
+                social media, or sending the files one by one over the local network. The latter is too slow and
+                cumbersome,
+                so I looked if I could do anything with the social media route. I figured that I could create a fake
+                twitter
+                account, connect it to my switch, and then run a service on my server to watch that Twitter feed for
+                posts,
+                which is exactly what I did. Creating and connecting the account to my switch was the easy part, but I
+                needed
+                to create a custom service to continually watch the Twitter feed. I had to create a Twitter developer
+                account,
+                and with some trial and error, I was able to pull together multiple projects to create one utility that
+                can
+                automatically download screenshots and videos as soon as they are posted to a Twitter feed. I can now
+                very easily
+                post a video to twitter from my switch, and within a minute it will have shown up on my phone ready to
+                send.
+            </p>
+        </div>
+        <a class="button is-medium shrink-on-hover undecorated-link long-button" target="_blank"
+            style="max-width: 1000px;" href="https://github.com/aspendlove/Switch-Media-Downloader">
+            View on Github
+        </a>
+    </div>
+</body>
+<footer>
+    <p class="sans-serif footer-text">© Aidan Spendlove 2022</p>
+    <a href="https://nextcloud.aidanspendlove.dev:610/index.php/apps/forms/ZJPNrGJaAN2HLCw5"
+        class="undecorated-link footer-text" target="_blank">Contact</a>
+    <!-- <a href="https://github.com/aspendlove/" class="undecorated-link footer-text" target="_blank">Github</a> -->
+    <p class="footer-text"> | </p>
+    <a href="https://unsplash.com/@orwhat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        target="_blank" class="undecorated-link footer-text">
+        Background Photo by Richard Horvath
+    </a>
+</footer>
+
+</html>
